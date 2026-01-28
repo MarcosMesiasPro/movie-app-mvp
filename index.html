@@ -5,6 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie App - TMDB</title>
+    <style>
+      /* Fondo negro inmediato */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #020617;
+        color: white;
+      }
+    
+      /* Loader inicial simple */
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-color: #020617;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      /* Ocultar loader después de cargar */
+      body.loaded::before {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
