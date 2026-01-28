@@ -23,7 +23,7 @@ App moderna de películas construida con Vanilla JavaScript, Vite y Tailwind CSS
 
 1. Clona el repositorio:
 ```bash
-git clone [git@github.com:MarcosMesiasPro/movie-app-mvp.git]
+git clone git@github.com:MarcosMesiasPro/movie-app-mvp.git
 cd movie-app-mvp
 ```
 
@@ -53,7 +53,7 @@ npm run preview
 
 ## 🌐 Deploy
 
-Desplegado en Vercel: [tu-url-aqui]
+Desplegado en Vercel: https://movie-app-mvp.vercel.app/
 
 ## 📝 Licencia
 
@@ -61,4 +61,4 @@ MIT
 
 ## 👨‍💻 Autor
 
-Marcos Mesias - [https://github.com/MarcosMesiasPro?tab=repositories]
+Marcos Mesias - https://github.com/MarcosMesiasPro?tab=repositories
